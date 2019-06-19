@@ -9,7 +9,7 @@ class Student < User
   end 
   
   def knowledge 
-    learn 
+    learn(string)
   end 
 
 end
